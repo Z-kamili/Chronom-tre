@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="page">
+      <div class="countdown-col col">
+        <div class="time middle">
+         
+          <span>
+            <div id="H">0</div>
+            Hour.
+          </span>
+          <span>
+            <div id="m">0</div>
+           Minute.
+          </span>
+          <span>
+            <div id="s">0</div>
+            Second
+          </span>
+          <span>
+            <div id="ms">0</div>
+           Milisecond
+          </span>
+        </div>
+        <div class="btn">
+        <input id="start" class="newsletter-btn"  onclick="start()" type="button" value="Start">
+        <input id="stop" class="newsletter-btn" onclick="stop()" type="button" value="Stop">
+        <input id="reset" class="newsletter-btn" onclick="reset()" type="button" value="Reset">
+        </div>   
+      </div>
+      <div class="newsletter-col col">
+         
+        <div class="newsletter middle">
+           
+          <h2>Chronometre</h2>
+          <h4>Subscribe to get notification when we start</h4>
+          <form>
+            <input type="text" id="em" placeholder="Enter Your Email">
+            <input class="newsletter-btn" type="button" value="Subscribe" onclick="validation()">
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="file.js"></script>
+  </body>
+</html>
